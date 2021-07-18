@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="This is a starter vue project" />
+    <HelloWorld msg="This is a starter vue project 😄" />
   </div>
 </template>
 

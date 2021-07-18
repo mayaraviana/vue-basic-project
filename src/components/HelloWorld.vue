@@ -2,7 +2,7 @@
   <div class="hello">
     <b-container>
       <b-row>
-        <h1>{{ msg }}</h1>
+        <h1 class="home-msg">{{ msg }}</h1>
       </b-row>
       <b-row>
         <b-col cols="12" md="4">col</b-col>
@@ -24,18 +24,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.home-msg {
+  font-size: 2.5em;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+@media (min-width: 900px) {
+  .home-msg {
+    font-size: 4em;
+  }
 }
 </style>
