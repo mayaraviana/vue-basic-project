@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <b-container fluid>
+    <b-container>
       <b-row>
         <h1>{{ msg }}</h1>
       </b-row>
