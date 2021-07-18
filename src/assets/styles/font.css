@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.ttf);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica-Bold.ttf);
+    font-weight: bold;
+}
+
+*, input, a{
+    font-family: Helvetica;
+}
+  
